@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" style="-fx-background-color: #64C5FD;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane prefHeight="101.0" prefWidth="800.0" style="-fx-background-color: #0720FF;">
+         <children>
+            <Label layoutX="197.0" layoutY="17.0" style="-fx-background-color: #FFAD07;" text="Tic-Tac-Toe Game" underline="true">
+               <font>
+                  <Font name="Arial Black" size="48.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.7994610667228699" green="0.8973684310913086" blue="0.05816276744008064" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.06741227954626083" green="0.6868420839309692" blue="0.191298246383667" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Label>
+            <ImageView fitHeight="101.0" fitWidth="98.0" layoutX="23.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Dmitry/IdeaProjects/TicTacToe/515ckhGVsDL.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Button fx:id="button1" layoutX="44.0" layoutY="122.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Button>
+      <Button fx:id="button2" layoutX="194.0" layoutY="122.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Button>
+      <Button fx:id="button3" layoutX="344.0" layoutY="122.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Button>
+      <Button fx:id="button4" layoutX="44.0" layoutY="272.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Button>
+      <Button fx:id="button5" layoutX="194.0" layoutY="272.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Button>
+      <Button fx:id="button6" layoutX="344.0" layoutY="272.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Button>
+      <Button fx:id="button7" layoutX="44.0" layoutY="422.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Button>
+      <Button fx:id="button8" layoutX="194.0" layoutY="422.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Button>
+      <Button fx:id="button9" layoutX="344.0" layoutY="422.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Button>
+      <Separator layoutX="44.0" layoutY="121.0" prefHeight="5.0" prefWidth="449.0" style="-fx-background-color: black;" />
+      <Separator layoutX="44.0" layoutY="271.0" prefHeight="5.0" prefWidth="449.0" style="-fx-background-color: black;" />
+      <Separator layoutX="45.0" layoutY="420.0" prefHeight="5.0" prefWidth="449.0" style="-fx-background-color: black;" />
+      <Separator layoutX="45.0" layoutY="569.0" prefHeight="5.0" prefWidth="449.0" style="-fx-background-color: black;" />
+      <Separator layoutX="41.0" layoutY="126.0" orientation="VERTICAL" prefHeight="447.0" prefWidth="5.0" style="-fx-background-color: black;" />
+      <Separator layoutX="191.0" layoutY="126.0" orientation="VERTICAL" prefHeight="447.0" prefWidth="5.0" style="-fx-background-color: black;" />
+      <Separator layoutX="341.0" layoutY="126.0" orientation="VERTICAL" prefHeight="447.0" prefWidth="5.0" style="-fx-background-color: black;" />
+      <Separator layoutX="490.0" layoutY="124.0" orientation="VERTICAL" prefHeight="447.0" prefWidth="5.0" style="-fx-background-color: black;" />
+      <Button fx:id="button10" layoutX="564.0" layoutY="305.0" mnemonicParsing="false" onAction="#restartGame" prefHeight="71.0" prefWidth="180.0" text="Restrart">
+         <font>
+            <Font name="Arial Black" size="28.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9605262875556946" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.4131578803062439" green="0.031369395554065704" blue="0.031369395554065704" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+   </children>
+</Pane>
